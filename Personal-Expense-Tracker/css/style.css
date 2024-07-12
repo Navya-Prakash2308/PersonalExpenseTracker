@@ -1,0 +1,179 @@
+/* General Styles */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Feather Icons */
+.feather {
+  width: 20px;
+  height: 20px;
+  stroke: #4d4d4d;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  vertical-align: text-bottom;
+}
+
+/* List Group */
+.list-group {
+  background-color: #ffffff;
+}
+.list-group-item {
+  border: none;
+}
+
+/* User */
+.user {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.user img {
+  padding: 10px;
+}
+
+/* Toggler */
+.toggler {
+  color: #000;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+.toggler:hover {
+  color: #007bff;
+  background-color: #e6f2ff;
+}
+
+/* Sidebar Active */
+.sidebar-active {
+  color: #1e90ff;
+  font-weight: 500;
+}
+.sidebar-active .feather {
+  stroke: #1e90ff;
+  font-weight: 500;
+}
+
+/* Wrapper */
+#wrapper {
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+/* Sidebar Wrapper */
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  transition: margin 0.25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+/* Page Content Wrapper */
+#page-content-wrapper {
+  min-width: 100vw;
+}
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+/* Card Styles */
+.card {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.container-fluid {
+  margin-right: 20px;
+}
+
+/* Custom Gradients */
+.card-gradient-1 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #0061ff, #60efff);
+}
+.card-gradient-2 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+}
+.card-gradient-3 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #667eea, #764ba2);
+}
+.card-gradient-4 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #30cfd0, #330867);
+}
+.card-gradient-5 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #2af598, #009efd);
+}
+.card-gradient-6 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #06beb6, #48b1bf);
+}
+.card-gradient-7 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #4776e6, #8e54e9);
+}
+.card-gradient-8 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #43e97b, #38f9d7);
+}
+.card-gradient-9 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+.card-gradient-10 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+}
+.card-gradient-11 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #43cea2, #185a9d);
+}
+.card-gradient-12 {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
